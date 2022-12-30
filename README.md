@@ -64,4 +64,13 @@ of exit codes:
        106 | integer division by zero
        107 | assertion violated
 
+
+---
+This fork adds a couple of large font files in order to make the resulting Oberon image easier on the eyes.  
+More fonts can be found on https://github.com/io-core/fonts
+To create the multifont image after a fresh clone run:  
+`$ ./build.sh`  
+`$ python build-image.py multifont-source`  
+Then you can run the resulting Oberon.dsk on pdewacht's risc emulator.
+
 [Project Oberon RISC emulator]: https://github.com/pdewacht/oberon-risc-emu
